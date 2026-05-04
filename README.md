@@ -4,7 +4,7 @@ This project provides a comprehensive data cleaning and visualization solution d
 
 ## 🔗 Live Dashboard
 You can access the hosted interactive dashboard here:
-[Click to Open Live Dashboard](INSERT_YOUR_LINK_HERE)
+[Click to Open Live Dashboard](https://sales-analytics-intelligence-dashboard-pygr5mpwhgwjqu7appafel.streamlit.app/)
 
 ## 📁 Delivery Package Contents
 1. **cleaning.py**: Python script for data preprocessing and standardization.
