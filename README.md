@@ -1,23 +1,40 @@
-# Sales Analytics Intelligence Dashboard
+# 📊 Sales Analytics Intelligence Dashboard
 
-This project provides a comprehensive data cleaning and visualization solution developed for Mr. Ahmed Sami. It transforms raw sales data into an interactive, actionable dashboard.
+A professional end-to-end data engineering and visualization project. This repository contains a complete pipeline to clean raw sales data and host an interactive intelligence dashboard using Streamlit.
 
-## 🔗 Live Dashboard
-You can access the hosted interactive dashboard here:
-[Click to Open Live Dashboard](https://sales-analytics-intelligence-dashboard-pygr5mpwhgwjqu7appafel.streamlit.app/)
+## 🚀 Live Demo
+Check out the live dashboard here: **[https://sales-analytics-intelligence-dashboard-pygr5mpwhgwjqu7appafel.streamlit.app/]**
 
-## 📁 Delivery Package Contents
-1. **cleaning.py**: Python script for data preprocessing and standardization.
-2. **dashboard.py**: The core Streamlit application script.
-3. **Dashboard_Dataset_Before.xlsx**: The original raw dataset provided.
-4. **Dashboard_Dataset_After.csv**: The final cleaned and processed dataset.
+## 📁 Repository Structure
+- `dashboard.py`: The main Streamlit application script.
+- `cleaning.py`: Python script for data preprocessing and standardization.
+- `Dashboard_Dataset_After.csv`: Cleaned dataset used by the dashboard.
+- `requirements.txt`: Essential libraries for Streamlit Cloud deployment.
+- `README.md`: Project documentation and setup guide.
 
-## 🛠️ Key Features & Processing
-- **Data Cleaning**: Handled missing values, standardized formats, and removed duplicates using Python.
-- **KPI Metrics**: Implemented real-time calculation of Total Revenue, Order Count, and Avg Order Value (K/M formatting).
-- **Advanced Visuals**: 
-    - Monthly Revenue Trends.
-    - Category-wise Revenue analysis.
-    - Order Fulfillment (Pie/Donut chart) with percentage distributions.
-    - Top 10 High-Value Customers analysis.
-- **UI/UX**: Responsive sidebar filters and 45° label rotation for better readability.# Sales-Analytics-Intelligence-Dashboard
+## 💻 Local Setup & Installation
+
+1. Clone the repository:
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+
+2. Create a Virtual Environment (Optional but recommended):
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. Verify Data Path:
+   Ensure Dashboard_Dataset_After.csv is in the root directory before launching.
+
+5. Run the Dashboard:
+   streamlit run dashboard.py
+
+## 🛠️ Technologies Used
+- Python 3.10+
+- Pandas: For data manipulation and cleaning.
+- Streamlit: For the interactive web interface.
+- Altair: For advanced data visualizations.
+- Plotly: For supplemental interactive charting.
+- Openpyxl: For handling Excel file formats.
