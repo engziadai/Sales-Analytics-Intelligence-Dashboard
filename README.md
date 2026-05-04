@@ -17,7 +17,7 @@ Check out the live dashboard here: [Live Dashboard Link](https://sales-analytics
 
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/your-username/Sales-Analytics-Intelligence-Dashboard.git](https://github.com/your-username/Sales-Analytics-Intelligence-Dashboard.git)
+   git clone [https://github.com/engziadai/Sales-Analytics-Intelligence-Dashboard.git](https://github.com/your-username/Sales-Analytics-Intelligence-Dashboard.git)
    cd Sales-Analytics-Intelligence-Dashboard
    ```
 
